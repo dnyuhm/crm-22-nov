@@ -12,7 +12,7 @@ export class OrdersService {
   private urlApi: string = environment.urlApi;
 
   constructor(private httpClient: HttpClient) {
-    this.collection$ = this.httpClient.get<Order[]>(`${this.urlApi}/orders`);
+    this.collection$ = this.httpClient.get<Order[]>(`${this.urlApi}/orders`)
     // console.log(this.collection$);
   }
 }
