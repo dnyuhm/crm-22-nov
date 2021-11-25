@@ -16,4 +16,8 @@ export class PageListOrdersComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  public changeTitle(): void {
+    this.myTitle = 'My List Orders';
+  }
 }

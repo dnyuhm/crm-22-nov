@@ -7,7 +7,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TemplateFullWidthComponent implements OnInit {
   @Input() public title!: string;
-
   constructor() {
     this.title = 'Le titre est ici';
     console.log(this.title);
